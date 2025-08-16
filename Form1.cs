@@ -85,7 +85,7 @@ namespace PruebaOpenTK
             GL.MatrixMode(MatrixMode.Modelview);
             GL.LoadMatrix(ref view);
 
-            GL.Color3(Color.Brown); // Verde
+            GL.Color3(Color.Brown); // Cafe
             GL.Begin(PrimitiveType.Lines);
             for (int i = 0; i < edges.GetLength(0); i++)
             {
